@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CURLY</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div>
+        <a href="#home">CURLY</a>
+      </div>
+        <span class="material-symbols-outlined menu-btn" onclick="toggleNav()">
+          menu
+          </span>
+      <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#service">Service</a>
+          <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <!-- section 1 -->
+      <section class="banner" id="home">
+        <div class="container">
+          <h1>
+            <span>DISCOVER</span> <br />
+            YOUR OWN STYLE
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            quos distinctio, sed perferendis alias cupiditate? Eius, ex. Dicta
+            molestias veniam officia 
+          </p>
+           
+          <a class="btn" href="#home">Contact Us</a>
+        </div>
+      </section>
+      <!-- section 2 -->
+      <section class="about" id="about">
+        <h2>ABOUT US</h2>
+        <div class="about-wrap">
+            <div class="about-sec1">
+              <img src="image/woman-hairdresser-salon.jpg" alt="about">
+            </div>
+            <div class="about-sec2">
+              <h3>We Create Masterpieces with <br>Every Strand</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ut dicta nisi vero facilis, quis assumenda cumque rerum asperiores, dolorem fugit nihil debitis eum fuga tempore, illum quod quam iure!
+                Molestiae esse dolores necessitatibus reiciendis, saepe praesentium tempora, dolor dicta recusandae iste placeat porro <br><br> laboriosam corrupti repellat quo. Aspernatur, impedit. Recusandae perspiciatis ratione quas aspernatur harum in neque non libero.
+                D rem itaque perferendis volupt
+              </p>
+
+              <div class="icon_container">
+                 <div>
+                  <img src="image/salon.png" alt="salon icon">
+                  <h3>Professional Tools</h3>
+                 </div>
+                 <div>
+                  <img src="image/shampoo.png" alt="shampoo icon">
+                  <h3>Quality Products</h3>
+                 </div>
+                 <div>
+                  <img src="image/shampoo (1).png" alt="atmosphere icon">
+                  <h3>Inviting Atmosphere</h3>
+                 </div>
+              </div>
+              <div class="cntr_btn"><a href="#about" class="btn">Read More</a></div>
+            </div>
+        </div>
+      </section>
+       
+      <!-- section 3 -->
+      <section class="service" id="service">
+        <div class="service-wrap">
+          <div class="service-content">
+            <h2>
+              SERVICES <br />
+              <span> Explore Our Services</span> 
+            </h2>
+          </div>
+          <div class="service-images">
+            <a href="service.html" class="img-content">
+              <div class="img">
+                <img src="/image/hair_styling.jpg" alt="hair_styling" />
+              </div>
+              <div class="content">Hair Styling</div>
+            </a>
+            <a href="service.html" class="img-content">
+              <div class="img">
+                <img src="/image/hair_cuts.jpg" alt="hair_cuts" />
+              </div>
+              <div class="content">Hair Cuts</div>
+            </a>
+            <a href="service.html" class="img-content">
+              <div class="img">
+                <img
+                  src="/image/hair_strightening.jpg"
+                  alt="hair_strightening"
+                />
+              </div>
+              <div class="content">Hair Strightening</div>
+            </a>
+            <a href="service.html" class="img-content">
+              <div class="img">
+                <img src="/image/hair_spa.jpg" alt="hair_spa" />
+              </div>
+              <div class="content">Hair Spa</div>
+            </a>
+            <a href="service.html" class="img-content">
+              <div class="img">
+                <img src="/image/hair_treatments.jpg" alt="hair_treatments" />
+              </div>
+              <div class="content">Hair Treatments</div>
+            </a>
+            <a href="service.html" class="img-content">
+              <div class="img">
+                <img src="/image/hair_colouring.jpg" alt="hair_colouring" />
+              </div>
+              <div class="content">Hair Colouring</div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- section 4 -->
+      <section class="section4" id="contact">
+          <h2>CONTACT US</h2>
+        <div class="contact-wrap"> 
+          <div class="contact-sec1">
+            <img src="image/hairdresser-taking-care-her-client.jpg" alt="">
+          </div> 
+          <div class="contact-sec2">
+            <h3>GET IN TOUCH</h3>
+            <form name="contactform" id="contactform">
+              <input type="text" name="name"
+              id="name" class="inputform" placeholder="name">
+              <input type="email" name="email" id="email" placeholder="Email">
+              <textarea name="comments" id="comments" rows="5" cols="5"  placeholder="Message"></textarea>
+              <div class="cntr_bttn"><a href="#about" class="btn">Send Message </a></div>
+            </form>
+          </div>
+          </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="footer-sec1">
+        <div><a href="#home">CURLY</a></div>
+        <p>Lorem, ipsum dolor sit amet consectetur  Lorem ipsum dolor sit, amet consectetur adipisicing elit. At blanditiis aperiam reiciendis labore natus ut reprehenderit eligendi ratione perspiciatis animi nisi, nesciunt accusamus dolore ullam officia rerum necessitatibus id illo.adipisicing elit. Cupiditate exercitationem omnis expedita laboriosam quam nesciunt cumque soluta numquam autem sint eligendi dolor eum iusto, cum repellendus, facilis praesentium? Aut, culpa.</p>
+        <div class="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-google-plus"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="footer-sec2">
+          <p>Copyright &copy;2021 CURLY</p>
+      </div>
+    </footer>
+    <script src="script/script.js"></script>
+  </body>
+</html>
