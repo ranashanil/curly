@@ -67,7 +67,7 @@ header .menu-btn{
 }
 
 .banner{
-    background-image: url(/image/home-1.png);
+    background-image: url(../image/home-1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
