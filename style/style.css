@@ -19,7 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 80px;
+    padding: 20px 80px;
     background-color: transparent;
 }
 header div a{
@@ -92,9 +92,9 @@ header .menu-btn{
 }
 .banner div p{
     color: #000;
-    width: 40%;
     font-size: 16px;
-    padding-bottom: 30px;
+    padding-right: 830px;
+    padding-bottom: 40px;
     font-weight: 400;
 }
 
@@ -152,7 +152,7 @@ header .menu-btn{
     height: 50px;
 }
 .icon_container h3{
-    font-size: 16px;
+    font-size: 17px;
     color: #9a734a;
     font-weight: 700px;
 }
@@ -190,7 +190,6 @@ header .menu-btn{
 }
 
 
-
 .service-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -220,14 +219,12 @@ header .menu-btn{
     text-align: center;
     padding: 2px;
     font-weight: 600;
-
 }
 
 .service-images .img-content .content:hover {
     background-color: rgba(154,115,74, 0.8);
     color:#ffffff;
 }
-
 
 /* contact */
 .section4{
@@ -288,7 +285,7 @@ header .menu-btn{
 
 /* footer */
 .footer-sec1{
-    padding: 100px 80px;
+    padding: 60px 80px;
     text-align: center;
     
 }
@@ -369,7 +366,7 @@ header nav a:hover{
 .btn{
     color: #ffffff;
     background-color:#9a734a;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 10px;
     font-weight: 600;
     font-size: 14px;
@@ -383,21 +380,21 @@ header nav a:hover{
 }
 
 .banner{
-    background-image: url('..image/mobile_banner.png');
-    background-position: center;
+    background-image: url('../image/mobile_banner.png');
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .banner .container{
-    padding:  170px 40px;
+    padding:  240px 40px;
 }
 .banner span{
     color:#000
 }
 .banner div h1{
     color:#9a734a;
-    font-size: 49px;
+    font-size: 52px;
     font-weight: 800;
     line-height: 55px;
     padding-bottom: 10px;
@@ -406,6 +403,7 @@ header nav a:hover{
     color: #000;
     font-size: 14px;
     padding-bottom: 30px;
+    padding-right: 322px;
     font-weight: 400;
 }
 .cntr_btn{
@@ -670,10 +668,10 @@ header nav a:hover{
 
 
     header{
-        padding: 18px 30px;
+        padding: 14px 30px;
     }
     header div a{
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 800;
         color:#000;
     }
@@ -698,8 +696,11 @@ header nav a:hover{
         padding: 10px 20px;
         border-radius: 10px;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 12px;
       
+    }
+    .banner_btn{
+        text-align: center;
     }
     .btn:hover{
         background-color:#000;
@@ -709,34 +710,37 @@ header nav a:hover{
     }
     
     .banner{
-        background-image: url('..image/mobile_banner.png');
-        background-position: center;
-        background-size: cover;
+        background-image: url('../image/mobile_banner.png');
+        background-position:center;
+        background-size:cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        width: 100%;
     }
     /* section 1 */
     /* .banner{
        
     } */
     .banner .container{
-        padding:  200px 30px;
+        padding: 150px 30px 200px 30px
     }
     .banner span{
         color:#9a734a
     }
     .banner div h1{
-        color:#000;
-        font-size: 40px;
+        color: #000;
+        font-size: 37px;
         font-weight: 800;
-        line-height: 50px;
-        padding-bottom: 10px;
+        line-height: 45px;
+        padding-bottom: 36px;
+        text-align: center;
     }
     .banner div p{
-        color: #000;
+        display: none;
+        /* color: #000;
         font-size: 12px;
         padding-bottom: 30px;
-        font-weight: 400;
+        font-weight: 400; */
     }
     .cntr_btn{
         text-align: center;
@@ -847,9 +851,9 @@ header nav a:hover{
     }
     
     .service-images .img-content {
-        padding: 10px;
+        padding: 0px;
         position: relative; 
-        margin: 10px;
+        margin: 0px;
     }
     
     .service-images .img-content .img img {
@@ -898,10 +902,11 @@ header nav a:hover{
         margin-bottom: 40px;
     }
     .section4 h2{
-        font-size: 22px;
+        font-size: 18px;
         color: #000;
         font-weight: 700;
         text-align: center;
+        padding-bottom: 0px;
     }
     .section4 h3{
         font-size: 30px;
@@ -987,110 +992,4 @@ header nav a:hover{
  {
 
  }
-
-/* }
-
-.banner div{
-    padding-left: 0;
-    text-align: center;
-}
-.banner div h1{
-    font-size: 38px;
-    line-height: 49px;
-    padding-bottom: 10px;
-}
-.banner div p{
-    font-size: 13px;
-    padding-bottom: 30px;
-}
-.btn{
-    padding: 6px 16px;
-    border-radius: 30px;
-} */
-
- /* section 2 */
-/* .about-wrap{
-    padding: 60px 80px;
-    flex-wrap: wrap;
-}
-.about-sec2{ 
-    padding-right: 30px;
-    order: 2;
-}
-.about-sec1{
-    order: 1;
-}
-.about-wrap .about-sec1 img{
-    max-width: 100%;
-    height: auto;
-}
-.about-sec2{ 
-    padding-right: 30px;
-}
-.about-sec2 h2{
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 40px;
-    padding-top: 30px;
-    text-align: center;
-}
-
-.about-sec2 p{
-    font-size: 12px;
-    padding: 4px 0 40px;
-    text-align: center;
-}
-.btn{
-    padding: 4px 5px;
-    border-radius: 15px;
-    font-size: 12px;
-    text-align: center;
-}
-.cntr_btn{
-    text-align: center;
-} */
-/* section 3 */
-/* .service .service-wrap{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 80px;
-}
-.service-sec1{
-    display: flex;
-    align-items: center;
-}
-.service .service-sec1 h2{
-    font-size: 55px;
-    font-weight: 900;
-}
-.service-sec2 .service-content{
-     padding: 15px;
-     grid-row: 1/4;
-}
-.service-sec2 .service-content .img{
-    position: relative;
-}
-.service-content .img div{
-    width: 300px;
-    height: 300px;
-}
-.service-content .img div img{
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}
-.service-content .img div img:hover{
-    opacity: 0.8;
-}
-.service-content .img p{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    font-size: 22px;
-    padding: 10px; 
-    text-align: center; 
-    font-weight: 600;
-    opacity: 0.8;
-}
-} */
 
